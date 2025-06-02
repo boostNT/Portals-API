@@ -6,7 +6,7 @@
 ### При заходе в приложение, для получения подарков идет гет запрос по этому юрл:
 
 ```python
-https://market.portals.tg/api/nfts/search
+https://portals-market.com
 ```
 
 #### Чтобы искать необходимые вам подарки, нужно указывать параметры в юрл запросе.
@@ -79,7 +79,7 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
 ```
 
-Либо вы можете зайти в веб тг, нажать f12, открыть вкладку network, зайти в аппку порталса, найти любой гет запрос на `https://market.portals.tg/api` (например `https://market.portals.tg/api/users/auth`), и в Headers в Request Headers найти поле Authorization и взять этот токен.   
+Либо вы можете зайти в веб тг, нажать f12, открыть вкладку network, зайти в аппку порталса, найти любой гет запрос на `https://portals-market.com` (например `https://portals-market.com`), и в Headers в Request Headers найти поле Authorization и взять этот токен.   
 
    
 ![image](https://github.com/user-attachments/assets/336ac777-88dd-4141-a55b-2e65c4f7701a)   
@@ -101,7 +101,7 @@ from pyrogram.raw.types import InputBotAppShortName, InputUser
 api_id = 12123123 # замени с https://my.telegram.org/auth
 api_hash = 'fok2jg4h83okpglr' # замени с https://my.telegram.org/auth
 client = Client('main', api_id=api_id, api_hash=api_hash)
-PORTALS_API_URL = 'https://market.portals.tg/api'
+PORTALS_API_URL = 'https://portals-market.com'
 
 
 async def main():
