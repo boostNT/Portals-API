@@ -81,9 +81,9 @@ loop.run_until_complete(main())
 
 Либо вы можете зайти в веб тг, нажать f12, открыть вкладку network, зайти в аппку порталса, найти любой гет запрос на `https://portals-market.com` (например `https://portals-market.com`), и в Headers в Request Headers найти поле Authorization и взять этот токен.   
 
-   
-![image](https://github.com/user-attachments/assets/336ac777-88dd-4141-a55b-2e65c4f7701a)   
+![image](https://github.com/user-attachments/assets/2539bdfe-95b0-4365-96de-18b2096b4ab5)   
 
+   
    
 Время действия токена неизвестно, но точно более суток.
 
