@@ -31,7 +31,7 @@ https://portals-market.com
 - **model_rarity** - По редкости модели.\
 В запросе это выглядит так:
 ```python
-https://market.portals.tg/api/nfts/search?offset=0&limit=20&sort_by=price+desc&status=listed
+https://portals-market.com/api/nfts/search?offset=0&limit=20&sort_by=price+desc&status=listed
 ```
 (выведет самые дорогие подарки)
 
