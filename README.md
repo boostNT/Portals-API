@@ -100,8 +100,8 @@ from pyrogram.raw.types import InputBotAppShortName, InputUser
 
 api_id = 12123123 # замени с https://my.telegram.org/auth
 api_hash = 'fok2jg4h83okpglr' # замени с https://my.telegram.org/auth
-client = Client('main', api_id=api_id, api_hash=api_hash)
-PORTALS_API_URL = 'https://portals-market.com'
+client = Client('main', api_id, api_hash)
+PORTALS_API_URL = 'https://portals-market.com/api'
 
 
 async def main():
@@ -111,12 +111,14 @@ async def main():
     headers = {'Authorization': token}
 
     try:
-        r=requests.get(f'{PORTALS_API_URL}/nfts/search?offset=0&limit=20&filter_by_backdrops=Black&sort_by=', headers=headers)
+        r=requests.get(f'{PORTALS_API_URL}/nfts/search?offset=0&limit=20&filter_by_backdrops=Black&sort_by=price desc&status=listed', headers=headers)
         rj=r.json()
         gifts = rj['results']
         print(gifts)
     except Exception as e:
         print(e)
+
+    # Код выведет 20 самых дорогих подарков на чёрном фоне
 
 
 
