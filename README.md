@@ -79,7 +79,7 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
 ```
 
-Либо вы можете зайти в веб тг, нажать f12, открыть вкладку network, зайти в аппку порталса, найти любой гет запрос на `https://portals-market.com` (например `https://portals-market.com`), и в Headers в Request Headers найти поле Authorization и взять этот токен.   
+Либо вы можете зайти в веб тг, нажать f12, открыть вкладку network, зайти в аппку порталса, найти любой гет запрос на `https://portals-market.com` (например `https://portals-market.com/api/nfts/search`), и в Headers в Request Headers найти поле Authorization и взять этот токен.   
 
 ![image](https://github.com/user-attachments/assets/2539bdfe-95b0-4365-96de-18b2096b4ab5)   
 
