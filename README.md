@@ -144,4 +144,4 @@ loop.run_until_complete(main())
 ```
 
 Тг для связи - [@bxxst](t.me/bxxst)
-
+P. S. Можете глянуть [этот репозиторий](https://github.com/bleach-hub/portalsmp) уже с полноценной либкой по апи порталс (не моей)
